@@ -16,7 +16,7 @@ export default function Home() {
 
       <Head>
       <meta charset="UTF-8"/>
-        <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+        <meta httpEquiv="X-UA-Compatible" content="IE=edge"/>
         <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
         <title>Focus</title>
         <link rel="stylesheet" href="style.css"/>
@@ -34,14 +34,14 @@ export default function Home() {
                 <li>BLOG</li>
                 <li className="contact">CONTACT US</li>
             </ul>
-            <button class="hamburger" onClick={handleClick}>Menu</button>
+            <button className="hamburger" onClick={handleClick}>Menu</button>
         </div>
 
 
         {
-            modal && <div class="mobile-menu">
-                <button class="close" onClick={handleClick}>&times;</button>
-            <ul class="menu-list">
+            modal && <div className="mobile-menu">
+                <button className="close" onClick={handleClick}>&times;</button>
+            <ul className="menu-list">
                 <li>SERVICES</li>
                 <li>WORK</li>
                 <li>ABOUT</li>
