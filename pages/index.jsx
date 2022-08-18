@@ -40,7 +40,7 @@ export default function Home() {
                 <li><a href="#">BLOG</a></li>
                 <li className="contact"><a href="#">CONTACT US</a></li>
             </ul>
-            <button className="hamburger" onClick={handleClick}>Menu</button>
+            <button className="hamburger" onClick={handleClick}>=</button>
         </div>
 
 
@@ -251,8 +251,12 @@ export default function Home() {
     <p className="title-footer">CONTACT</p>
     <p>+234 8062953184</p>
     <p>focusgrp@gmail.com</p>
-    <p>Port Harcort, Nigeria</p>
+    <p>Port Harcort, Nigeria.</p>
   </div>
+</div>
+
+<div className="subFooter">
+    copyright 2022. designed with ❤️ by Khalid.
 </div>
   </div>
     

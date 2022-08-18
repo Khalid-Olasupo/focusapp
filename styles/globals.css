@@ -209,14 +209,17 @@ a {
 
 .services-list div button {
   padding: 10px 15px;
-  border: 1px solid #27024F;
-  background: white;
+  background: #27024F;
   border-radius: 10px;
+  border: 0;
+  color: white;
+  font-size: 18px;
 }
 
 .services-list div p{
   font-size: 25px;
   font-weight: 600;
+  margin: 20px 0;
 }
 
 .services-list div span {
@@ -328,7 +331,7 @@ a {
 }
 
 .about-box p{
-  font-size: 30px;
+  font-size: 20px;
   font-weight: 400;
 }
 
@@ -523,6 +526,17 @@ a {
 }
 
 
+.subFooter {
+  background: #3B0377;
+  width: 100%;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #e2e0e0;
+}
+
+
 
 
 
@@ -538,7 +552,7 @@ a {
 
   .hamburger {
       display: contents;
-      font-size: 20px;
+      font-size: 50px;
       font-weight: 600;
       cursor: pointer;
       color: white;
@@ -780,7 +794,7 @@ a {
   }
   
   .about-desc .text2 {
-    font-size: 42px;
+    font-size: 38px;
     line-height: 1.2;
     font-weight: 600;
     font-stretch: normal;
@@ -811,6 +825,12 @@ a {
       display: flex;
       flex-direction: column;
       gap: 10px;
+  }
+
+  .about-box .discover{
+    font-size: 18px;
+    font-weight: 600;
+    color: #27024F;
   }
 
   .about-boxes {
@@ -848,6 +868,7 @@ a {
       height: 200px;
       font-size: 16px;
   }
+
 
   .boxes-about1 div p{
     font-size: 20px;
@@ -957,19 +978,20 @@ a {
   
 .contactBottom {
   width: 90%;
+  height: 200px;
   background: white;
   box-shadow: 0px 5px 25px rgba(33, 33, 33, 0.15);
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding-top: 50px;
-  padding-bottom: 50px;
+  justify-content: center;
   border-radius: 20px;
+  padding: 20px;
 }
 
 
 .contactBottom p {
-  font-size: 50px;
+  font-size: 40px;
   font-weight: 600;
   color: black;
 }
@@ -983,7 +1005,6 @@ a {
   outline: 0;
   background: #27024F;
   color: white;
-  margin-top: 15px;
 }
 
 
@@ -1018,6 +1039,17 @@ a {
   list-style: none;
   font-size: 20px;
   margin-bottom: 10px;
+}
+
+.subFooter {
+  background: #3B0377;
+  width: 100%;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #e2e0e0;
+  font-size: 14px;
 }
 
 }
