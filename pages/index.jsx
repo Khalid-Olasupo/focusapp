@@ -1,6 +1,4 @@
-import Head from 'next/head'
 import React, { useState } from 'react'
-import styles from '../styles/Home.module.css'
 import Image from "next/image"
 import logo from "../public/Images/logo.png"
 import illustration1 from "../public/Images/main-asset1.png"
@@ -11,7 +9,6 @@ import dropbox  from "../public/Images/dropbox-logo.png"
 import email from "../public/Images/email.png"
 import code from "../public/Images/code.png"
 import www from "../public/Images/www.png"
-import project1 from"../public/Images/project-image1.png"
 import project2 from "../public/Images/project-image3.png"
 import project3 from "../public/Images/project-image2.png"
 import bulb from "../public/Images/light-bulb.png"
@@ -35,20 +32,11 @@ export default function Home() {
 
 
   return (
-    <div className={styles.container}>
-
-      <Head>
-      <meta charset="UTF-8"/>
-        <meta httpEquiv="X-UA-Compatible" content="IE=edge"/>
-        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-        <title>Focus</title>
-      </Head>
-
     <div className="container">
 
 
         <div className="header">
-            <Image src={logo} alt=""/>
+            <Image src={logo} alt="logo"/>
             <ul className="menu-list">
                 <li>SERVICES</li>
                 <li>WORK</li>
@@ -68,7 +56,7 @@ export default function Home() {
                 <li>WORK</li>
                 <li>ABOUT</li>
                 <li>BLOG</li>
-                <li class="contact">CONTACT US</li>
+                <li className="contact">CONTACT US</li>
             </ul>
         </div>
 
@@ -90,7 +78,7 @@ export default function Home() {
         </div>
     </div>
         <div className="illustration">
-            <Image src={illustration1} alt="" className="illustration1"/>
+            <Image src={illustration1} alt="illustration" className="illustration1"/>
         </div>
   </div>
 
@@ -107,16 +95,16 @@ export default function Home() {
     </div>
     <div className="companies">
         <div className="clickup">
-            <Image src={clickup} alt=""/>
+            <Image src={clickup} alt="lickup"/>
         </div>
         <div className="dropbox">
-            <Image src={dropbox} alt=""/>
+            <Image src={dropbox} alt="dropbox"/>
         </div>
         <div className="elastic">
-            <Image src={elastic} alt=""/>
+            <Image src={elastic} alt="elastic"/>
         </div>
         <div className="slack">
-            <Image src={slack} alt=""/>
+            <Image src={slack} alt="slack"/>
         </div>
     </div>
 </div>
@@ -126,21 +114,21 @@ export default function Home() {
         <p className="feature">Features and Services</p>
     <div className="services-list">
         <div className="webdev">
-            <Image src={email}/>
+            <Image src={email} alt="email"/>
             <p className="desc">Email Marketing</p>
             <span>Unlock the power of AI-Driven email tool and start delivering conversion driven results.</span>
             <br/>
             <button>Learn More</button>
         </div>
         <div className="webdev">
-            <Image src={code}/>
+            <Image src={code} alt="code"/>
             <p className="desc">Web Development</p>
             <span>Let us create beautiful and user-friendly websites.</span>
             <br/>
             <button>Learn More</button>
         </div>
         <div className="webdev">
-            <Image src={www}/>
+            <Image src={www} alt="web"/>
             <p className="desc">Search Engine Optimization</p>
             <span>Improvement in the quantity of your website traffic</span>
             <br/>
@@ -162,23 +150,23 @@ export default function Home() {
 <div className="work-list">
 
     <div className="project">
-        <Image src={project3} width="515px" height="500px"/>
+        <Image src={project3} alt="project" width="515px" height="500px"/>
         <p className="desc">Charmmi Construct</p>
         <span>Charmmi Construct is an architectural firm and design studio.</span>
         <p className="view">VIEW</p>
     </div>
 
     <div className="project">
-        <Image src={project2} width="515px" height="500px"/>
+        <Image src={project2} alt="project"  width="515px" height="500px"/>
         <p className="desc">Coco Logo</p>
         <span>We created a personal brand identity for coco.</span>
         <p className="view">VIEW</p>
     </div>
 
     <div className="project">
-        <Image src={project3} width="515px" height="500px"/>
+        <Image src={project3} alt="project"  width="515px" height="500px"/>
         <p className="desc">ABTM Branding</p>
-        <span>Above the Moon(ABTM) is a street wear brand.</span>
+        <span>Above the Moon, ABTM is a street wear brand.</span>
         <p className="view">VIEW</p>
     </div>
 
@@ -187,7 +175,7 @@ export default function Home() {
 
 <div className="about-desc">
             <p>About</p>
-            <p className="text2">We provide world-className services</p>
+            <p className="text2">We provide world class services</p>
     </div>
 
     <div className="about-box">
@@ -249,7 +237,7 @@ export default function Home() {
             </div>
             <div className="blog-post2">
             <p>AI will turn Graphic Design on its head.</p>
-                <Image src={blog2} alt=""/>
+                <Image src={blog2} alt="" width= "350px" height= "350px"/>
             </div>
         </div>
 
@@ -269,7 +257,7 @@ export default function Home() {
 
 <div className='contactBottom'>
   <p>Have a project in mind?</p>
-  <button>LET'S TALK</button>
+  <button>LET US TALK</button>
 </div>
 
 
@@ -297,19 +285,13 @@ export default function Home() {
 
   <div>
     <p className='title-footer'>CONTACT</p>
-    <p>(+234) 806 295 3184</p>
+    <p>+234 8062953184</p>
     <p>focusgrp@gmail.com</p>
     <p>Plot 100, Road 411, 4th Avenue, Agip Estate, PH, Nigeria</p>
   </div>
 </div>
-<div>
-    <p>Copyright 2022. Created with love by Khalid.</p>
-</div>
   </center>
     
-    </div>
-
-      
     </div>
   )
 }

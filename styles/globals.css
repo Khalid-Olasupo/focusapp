@@ -543,8 +543,8 @@ a {
       display: contents;
       font-size: 20px;
       font-weight: 600;
-      color: white;
       cursor: pointer;
+      color: white;
   }
 
   .mobile-menu {
