@@ -137,55 +137,77 @@ export default function Home() {
     </div>
   </div>
 
-    <div className="testimonials">
-        <div className="testimonials-head">
-            <p>Testimonials</p>
-            <p className="testimonials-header">What our Clients Says</p>
-        </div>
 
-        <div className="testimonials-map">
-            <Image src={map} alt=""/>
-        </div>
+
+  <div className="works">
+
+    <div className="recent-desc">
+        <p className="r-works">Works</p>
+        <p>Our most recent projects</p>
     </div>
 
+<div className="work-list">
 
-    <div className="blog">
-        <div className="blog-head">
-            <p>Blog</p>
-            <p className="blog-header">News and Insights</p>
+    <div className="project">
+        <Image src={project3} alt="project" width="515px" height="500px"/>
+        <p className="desc">Charmmi Construct</p>
+        <span>Charmmi Construct is an architectural firm and design studio.</span>
+        <p className="view">VIEW</p>
+    </div>
+
+    <div className="project">
+        <Image src={project2} alt="project"  width="515px" height="500px"/>
+        <p className="desc">Coco Logo</p>
+        <span>We created a personal brand identity for coco.</span>
+        <p className="view">VIEW</p>
+    </div>
+
+    <div className="project">
+        <Image src={project3} alt="project"  width="515px" height="500px"/>
+        <p className="desc">ABTM Branding</p>
+        <span>Above the Moon, ABTM is a street wear brand.</span>
+        <p className="view">VIEW</p>
+    </div>
+
+</div>
+</div>
+
+<div className="about-desc">
+            <p>About</p>
+            <p className="text2">We provide world class services</p>
+    </div>
+
+    <div className="about-box">
+        <div className="about-text">
+            <p>We are west coast change-makers, in a complex world. The brands we support are positioned to be purposeful and powerful while also fluid and free-forming.</p>
+            <p> We are embracers of change. When we drive the change, a brand can connect with its audience, captivate the hearts and minds of customers, and convert cross-channel..</p>
+            <p className="discover">DISCOVER OUR CAPABILITIES</p>
         </div>
 
-    <div className="blog-list">
+        <div className="about-boxes">
+            <div className="boxes-about1">
+                <div className="box1">
+                    <Image src={badge} alt=""/>
+                    <p>Professional and Certified Company</p>
+                </div>
+                <div className="box1">
+                    <Image src={design} alt=""/>
+                    <p>Pixel and Perfect Design</p>
+                </div>
+            </div>
 
-        <div className="blog-posts">
-            <div className="blog-post1">
-                <p>Solana Ventures Launches $100 Million Fund Focused on Web3 Projects in South Korea</p>
-                <Image src={blog1} alt="" width= "350px" height= "350px"/>
-            </div>
-            <div className="blog-post2">
-            <p>AI will turn Graphic Design on its head.</p>
-                <Image src={blog2} alt="" width= "350px" height= "350px"/>
-            </div>
-        </div>
-
-        <div className="blog-posts">
-            <div className="blog-post3">
-            <p>What are Soulbound Tokens? Building Blocks for a Web3 Decentralized Society</p>
-                <Image src={blog3} alt="" width= "350px" height= "350px"/>
-            </div>
-            <div className="blog-post4">
-            <p>Superunion designs variable font logo for Hermes as part of Evri-rebrand</p>
-                <Image src={blog4} alt="" width= "350px" height= "350px"/>
-            </div>
+            <div className="boxes-about2">
+                <div className="box1">
+                    <Image src={bulb} alt=""/>
+                    <p>Business and Product Concept</p>
+                </div>
+                <div className="box1">
+                    <Image src={handshake} alt=""/>
+                    <p>Good Partnership</p>
+                </div>
+            </div> 
         </div>
     </div>
-</div>
-
-
-<div className="contactBottom">
-  <p>Have a project in mind?</p>
-  <button>LET US TALK</button>
-</div>
 
 
 <div className="footer">
