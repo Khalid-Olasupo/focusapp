@@ -32,6 +32,7 @@ export default function Home() {
 
 
   return (
+
     <div className="container">
 
         <div className="header">
@@ -49,7 +50,7 @@ export default function Home() {
 
         {
             modal && <div className="mobile-menu">
-                <button className="close" onClick={handleClick}>&times;</button>
+            <button className="close" onClick={handleClick}>X</button>
             <ul className="menu-list">
                 <li>SERVICES</li>
                 <li>WORK</li>
@@ -285,7 +286,7 @@ export default function Home() {
     <p className="title-footer">CONTACT</p>
     <p>+234 8062953184</p>
     <p>focusgrp@gmail.com</p>
-    <p>Plot 100, Road 411, 4th Avenue, Agip Estate, PH, Nigeria</p>
+    <p>Port Harcort, Nigeria</p>
   </div>
 </div>
   </div>
