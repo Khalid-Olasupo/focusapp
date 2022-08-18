@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React, { useState } from "react"
 import Image from "next/image"
 import logo from "../public/Images/logo.png"
 import illustration1 from "../public/Images/main-asset1.png"
@@ -34,15 +34,14 @@ export default function Home() {
   return (
     <div className="container">
 
-
         <div className="header">
             <Image src={logo} alt="logo"/>
             <ul className="menu-list">
-                <li>SERVICES</li>
-                <li>WORK</li>
-                <li>ABOUT</li>
-                <li>BLOG</li>
-                <li className="contact">CONTACT US</li>
+                <li><a href="#">SERVICES</a></li>
+                <li><a href="#">WORK</a></li>
+                <li><a href="#">ABOUT</a></li>
+                <li><a href="#">BLOG</a></li>
+                <li className="contact"><a href="#">CONTACT US</a></li>
             </ul>
             <button className="hamburger" onClick={handleClick}>Menu</button>
         </div>
@@ -61,7 +60,6 @@ export default function Home() {
         </div>
 
         }
-        
 
 
   <div className="main-box">
@@ -71,9 +69,9 @@ export default function Home() {
         </div>
         <br/>
         <div className="description">
-            Focus is a full-service agency that's been purpose-built to help organizations thrive in an increasingly complex landscape.
+            Focus is a full-service agency that"s been purpose-built to help organizations thrive in an increasingly complex landscape.
             <br/>
-            <button>Let's Talk</button>
+            <button>Let Us Talk</button>
 
         </div>
     </div>
@@ -82,12 +80,12 @@ export default function Home() {
         </div>
   </div>
 
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320" className="curved-bottom">
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320" className="curved-bottom">
     <path fill="#fff" fillOpacity="1" d="M0,192L48,213.3C96,235,192,277,288,293.3C384,309,480,299,576,266.7C672,235,768,181,864,138.7C960,96,1056,64,1152,69.3C1248,75,1344,117,1392,138.7L1440,160L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"></path>
 </svg>
 
 
-  <center>
+  <div className="center">
 
   <div className="section2">
     <div className="trust">
@@ -255,19 +253,19 @@ export default function Home() {
 </div>
 
 
-<div className='contactBottom'>
+<div className="contactBottom">
   <p>Have a project in mind?</p>
   <button>LET US TALK</button>
 </div>
 
 
-<div className='footer'>
+<div className="footer">
   <div>
   <Image src={logo} alt="logo"/>
   </div>
 
   <div>
-    <p className='title-footer'>ABOUT</p>
+    <p className="title-footer">ABOUT</p>
     <ul>
       <li>Our Clients</li>
       <li>The Team</li>
@@ -275,7 +273,7 @@ export default function Home() {
   </div>
 
   <div>
-    <p className='title-footer'>SERVICES</p>
+    <p className="title-footer">SERVICES</p>
     <ul>
       <li>Branding</li>
       <li>Design</li>
@@ -284,13 +282,13 @@ export default function Home() {
   </div>
 
   <div>
-    <p className='title-footer'>CONTACT</p>
+    <p className="title-footer">CONTACT</p>
     <p>+234 8062953184</p>
     <p>focusgrp@gmail.com</p>
     <p>Plot 100, Road 411, 4th Avenue, Agip Estate, PH, Nigeria</p>
   </div>
 </div>
-  </center>
+  </div>
     
     </div>
   )

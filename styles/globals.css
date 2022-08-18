@@ -25,6 +25,13 @@ a {
   background: #fff;
 }
 
+.center {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
 .header {
   display: flex;
   justify-content: space-between;
@@ -40,6 +47,7 @@ a {
   font-weight: 600;
   color: white;
 }
+
 
 .menu-list{
   display: flex;
@@ -83,7 +91,7 @@ a {
   display: flex;
   flex: 1;
   background: linear-gradient(270.13deg, #3B0377 12.06%, #1D013B 108.66%);
-  padding: 80px;
+  padding: 80px 80px 0 80px;
 }
 
 
@@ -307,6 +315,7 @@ a {
   text-align: left;
   font-size: 32px;
   font-weight: 500;
+  text-align: center;
 }
 
 .about-desc .text2 {
@@ -314,6 +323,7 @@ a {
   line-height: 73px;
   font-weight: 600;
   font-stretch: condensed;
+  text-align: left;
 }
 
 .about-text p{
@@ -349,7 +359,6 @@ a {
   flex: 1;
   flex-direction: column;
   gap: 15px;
-  width: 200px;
 }
 
 .boxes-about1 div{
@@ -358,6 +367,8 @@ a {
   border-radius: 10px;
   text-align: left;
   color: #27024F;
+  width: 220px;
+  height: 220px;
 }
 
 .boxes-about2 div {
@@ -366,6 +377,8 @@ a {
   border-radius: 10px;
   text-align: left;
   color: #27024F;
+  width: 220px;
+  height: 220px;
 }
 
 .boxes-about1 div p{
@@ -439,6 +452,9 @@ a {
   gap: 10px;
   padding: 20px;
   width: 50%;
+  border-radius: 20px;
+  border: 1px solid  #27024F;
+  margin: 10px;
 }
 
 
@@ -450,14 +466,6 @@ a {
 
 .blog-list img{
   border-radius: 20px;
-}
-
-.blog-post1, .blog-post2 {
-  border-bottom: 2px solid black;
-}
-
-.blog-post1, .blog-post3 {
-  border-right: 2px solid black;
 }
 
 
@@ -558,6 +566,7 @@ a {
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    transition-timing-function: ease-in;
   }
 
 
@@ -568,9 +577,9 @@ a {
   }
 
   .menu-list li {
-    font-size: 20px;
+    font-size: 25px;
     font-weight: 600;
-    margin-bottom: 15px;
+    margin-bottom: 20px;
     cursor: pointer;
   }
 
@@ -584,7 +593,9 @@ a {
       margin-bottom: 80px;
       cursor: pointer;
       border: 0;
-      position: relative;
+      position: absolute;
+      top: 30px;
+      right: 30px;
   }
 
   .main-box {
@@ -791,20 +802,26 @@ a {
   
   .boxes-about1 div{
       box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-      padding: 8px;
+      padding: 10px;
       border-radius: 10px;
       text-align: left;
       align-items: center;
       color: #27024F;
+      width: 100%;
+      height: 220px;
+      font-size: 16px;
   }
   
   .boxes-about2 div {
       box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-      padding: 8px;
+      padding: 10px;
       border-radius: 10px;
       text-align: left;
       align-items: center;
       color: #27024F;
+      width: 100%;
+      height: 220px;
+      font-size: 16px;
   }
 
 
