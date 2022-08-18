@@ -16,10 +16,6 @@ import badge from "../public/Images/badge.png"
 import design from "../public/Images/design-thinking.png"
 import handshake from "../public/Images/handshake.png"
 import map from "../public/Images/map.png"
-import blog1 from "../public/Images/img1.png"
-import blog2 from "../public/Images/img2.png"
-import blog3 from "../public/Images/img3.png"
-import blog4 from "../public/Images/img4.png"
 
 
 export default function Home() {
@@ -94,7 +90,7 @@ export default function Home() {
     </div>
     <div className="companies">
         <div className="clickup">
-            <Image src={clickup} alt="lickup"/>
+            <Image src={clickup} alt="lickup" />
         </div>
         <div className="dropbox">
             <Image src={dropbox} alt="dropbox"/>
@@ -208,6 +204,25 @@ export default function Home() {
             </div> 
         </div>
     </div>
+
+    <div className="testimonials">
+        <div className="testimonials-head">
+            <p>Testimonials</p>
+            <p className="testimonials-header">What our Clients Says</p>
+        </div>
+
+        <div className="testimonials-map">
+            <Image src={map} alt=""/>
+        </div>
+    </div>
+
+
+    
+
+<div className="contactBottom">
+  <p>Have a project in mind?</p>
+  <button>LET US TALK</button>
+</div>
 
 
 <div className="footer">
