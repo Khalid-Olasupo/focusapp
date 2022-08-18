@@ -31,7 +31,7 @@ a {
   align-items: center;
   background: linear-gradient(270.13deg, #3B0377 12.06%, #1D013B 108.66%);
   padding: 0px 80px;
-  height: 80px;
+  height: 100px;
 }
 
 
@@ -113,6 +113,10 @@ a {
 }
 
 
+.illustration {
+  min-width: 500px;
+}
+
 .illustration1 {
   width: 550px;
   margin-left: -100px;
@@ -122,7 +126,7 @@ a {
 
 .curved-bottom {
   z-index: 1;
-  margin-top: -300px;
+  margin-top: -400px;
 }
 
 
@@ -345,6 +349,7 @@ a {
   flex: 1;
   flex-direction: column;
   gap: 15px;
+  width: 200px;
 }
 
 .boxes-about1 div{
@@ -588,12 +593,12 @@ a {
       align-items: center;
       justify-content: center;
       background: linear-gradient(270.13deg, #3B0377 12.06%, #1D013B 108.66%);
-      padding: 15px;
+      padding: 60px 15px;
     }
   
   
   .main-box .motto {
-      font-size: 50px;
+      font-size: 45px;
       font-weight: 600;
       color: white;
     }
@@ -616,6 +621,12 @@ a {
       padding: 10px 20px;
       cursor: pointer;
     }
+
+
+    .illustration {
+      min-width: 100%;
+      display: none;
+    }
   
   .illustration1 {
       width: 300px;
@@ -625,7 +636,7 @@ a {
     }
   
   .curved-bottom {
-      z-index: 1;
+    display: none;
     }
 
     .section2 {
@@ -694,9 +705,6 @@ a {
       border-radius: 20px;
       padding: 20px;
   }
-
-
-
 
 
 .recent-desc {
@@ -931,10 +939,12 @@ a {
 
 .footer {
   display: flex;
+  flex-direction: column;
   width: 100%;
   justify-content: space-between;
   background: #27024F;
-  padding: 120px 80px;
+  padding: 80px 15px;
+  gap: 30px;
 }
 
 .footer div {
